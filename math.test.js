@@ -1,17 +1,12 @@
-// console.log($pwd);
-
-// const sum = require('/home/root/work/jest-prep-course/math');
-// const mul = require('/home/root/work/jest-prep-course/math');
-// const sub = require('/home/root/work/jest-prep-course/math');
-// const div = require('/home/root/work/jest-prep-course/math');
-
-// const { sum, mul, sub, div } = require ('/home/root/work/jest-prep-course/math');
 const { sum, mul, sub, div } = require ('./math');
+
+/*
 console.log(sum(1,2));
 console.log(mul(1,2));
 console.log(sub(1,2));
 console.log(div(1,2));
 console.log('Current directory: ' + process.cwd());
+*/
 
 /*
 describe('add', () => {
@@ -19,6 +14,7 @@ describe('add', () => {
     expect(sum(1, 2)).toBe(3);
   });
 });
+*/
 
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
@@ -83,4 +79,3 @@ test('adds 0 / 8 to equal 0', () => {
 test('adds 9 / -3 to equal 3', () => {
 	expect(div(9, -3)).toBe(3);
 });
-*/

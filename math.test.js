@@ -5,11 +5,17 @@ const sum = require('/home/root/work/jest-prep-course/math');
 // const sub = require('/home/root/work/jest-prep-course/math');
 // const div = require('/home/root/work/jest-prep-course/math');
 
+describe('add', () => {
+  it('should add two numbers', () => {
+    expect(sum(1, 2)).toBe(3);
+  });
+});
+
+/*
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
 });
 
-/*
 test('adds 57 + 8 to equal 65', () => {
 	expect(sum(57, 8)).toBe(65);
 });

@@ -3,6 +3,8 @@ const mul = require('math');
 const sub = require('math');
 const div = require('math');
 
+console.log($pwd);
+
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
 });

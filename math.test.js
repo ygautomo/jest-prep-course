@@ -1,4 +1,4 @@
-console.log($pwd);
+// console.log($pwd);
 
 const sum = require('/home/root/work/jest-prep-course/math');
 const mul = require('/home/root/work/jest-prep-course/math');

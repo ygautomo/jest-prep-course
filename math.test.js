@@ -5,7 +5,7 @@
 // const sub = require('/home/root/work/jest-prep-course/math');
 // const div = require('/home/root/work/jest-prep-course/math');
 
-import { sum, mul, sub, div } from '/home/root/work/jest-prep-course/math';
+const sum = require (from )'/home/root/work/jest-prep-course/math');
 console.log(sum(1,2));
 
 /*

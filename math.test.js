@@ -1,9 +1,9 @@
-const sum = require('math');
-const mul = require('math');
-const sub = require('math');
-const div = require('math');
-
 console.log($pwd);
+
+const sum = require('/home/root/work/jest-prep-course/math');
+const mul = require('/home/root/work/jest-prep-course/math');
+const sub = require('/home/root/work/jest-prep-course/math');
+const div = require('/home/root/work/jest-prep-course/math');
 
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);

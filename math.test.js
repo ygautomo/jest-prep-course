@@ -5,8 +5,11 @@
 // const sub = require('/home/root/work/jest-prep-course/math');
 // const div = require('/home/root/work/jest-prep-course/math');
 
-const {sum} = require ('/home/root/work/jest-prep-course/math');
+const { sum, mul, sub, div } = require ('/home/root/work/jest-prep-course/math');
 console.log(sum(1,2));
+console.log(mul(1,2));
+console.log(sub(1,2));
+console.log(div(1,2));
 
 /*
 describe('add', () => {

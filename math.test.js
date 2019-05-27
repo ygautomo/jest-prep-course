@@ -1,6 +1,8 @@
 const { sum, mul, sub, div } = require ('./math');
 
 /*
+// script to confirm file is running
+// node math.test
 console.log(sum(1,2));
 console.log(mul(1,2));
 console.log(sub(1,2));
@@ -28,8 +30,8 @@ test('adds 0 + 8 to equal 8', () => {
 	expect(sum(0, 8)).toBe(8);
 });
 
-test('adds 9 + -3 to equal 5', () => {
-	expect(sum(9, -3)).toBe(5);
+test('adds 9 + -3 to equal 6', () => {
+	expect(sum(9, -3)).toBe(6);
 });
 
 test('adds 1 * 2 to equal 2', () => {
@@ -76,6 +78,6 @@ test('adds 0 / 8 to equal 0', () => {
 	expect(div(0, 8)).toBe(0);
 });
 
-test('adds 9 / -3 to equal 3', () => {
-	expect(div(9, -3)).toBe(3);
+test('adds 9 / -3 to equal -3', () => {
+	expect(div(9, -3)).toBe(-3);
 });

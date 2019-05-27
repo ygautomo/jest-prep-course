@@ -1,7 +1,7 @@
-const sum = require('./math');
-const mul = require('./math');
-const sub = require('./math');
-const div = require('./math');
+const sum = require('math');
+const mul = require('math');
+const sub = require('math');
+const div = require('math');
 
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);

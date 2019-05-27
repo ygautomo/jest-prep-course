@@ -1,17 +1,20 @@
 // console.log($pwd);
 
-const sum = require('/home/root/work/jest-prep-course/math');
+// const sum = require('/home/root/work/jest-prep-course/math');
 // const mul = require('/home/root/work/jest-prep-course/math');
 // const sub = require('/home/root/work/jest-prep-course/math');
 // const div = require('/home/root/work/jest-prep-course/math');
 
+import { sum, mul, sub, div } from '/home/root/work/jest-prep-course/math';
+console.log(sum(1,2));
+
+/*
 describe('add', () => {
   it('should add two numbers', () => {
     expect(sum(1, 2)).toBe(3);
   });
 });
 
-/*
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
 });

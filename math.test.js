@@ -1,14 +1,15 @@
 // console.log($pwd);
 
 const sum = require('/home/root/work/jest-prep-course/math');
-const mul = require('/home/root/work/jest-prep-course/math');
-const sub = require('/home/root/work/jest-prep-course/math');
-const div = require('/home/root/work/jest-prep-course/math');
+// const mul = require('/home/root/work/jest-prep-course/math');
+// const sub = require('/home/root/work/jest-prep-course/math');
+// const div = require('/home/root/work/jest-prep-course/math');
 
 test('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
 });
 
+/*
 test('adds 57 + 8 to equal 65', () => {
 	expect(sum(57, 8)).toBe(65);
 });
@@ -68,3 +69,4 @@ test('adds 0 / 8 to equal 0', () => {
 test('adds 9 / -3 to equal 3', () => {
 	expect(div(9, -3)).toBe(3);
 });
+*/
